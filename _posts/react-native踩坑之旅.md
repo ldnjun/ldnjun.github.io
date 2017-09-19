@@ -9,3 +9,4 @@ catalog: true                       # 是否归档
 tags:                               #标签
     - react-native
 ---
+## 1. Super expression must either be null or a function, not undefined
