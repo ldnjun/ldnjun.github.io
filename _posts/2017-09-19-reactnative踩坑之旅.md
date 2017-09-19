@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      react-native踩坑之旅            # 标题 
+title:      react-native踩坑之旅               # 标题 
 subtitle:   每日一踩                       #副标题
 date:       2017-09-19              # 时间
 author:     BY ldnjun                      # 作者
