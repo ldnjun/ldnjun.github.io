@@ -10,7 +10,7 @@ tags:                               #标签
     - react-native
 ---
 ## 1. Super expression must either be null or a function, not undefined
-        import{
-          View,
-          StatusBar
-        }from 'react-native';
+    import{
+  View,
+  StatusBar
+}from 'react-native';
