@@ -11,8 +11,8 @@ tags:                               #标签
 ---
 **1. Super expression must either be null or a function, not undefined**
 ```javascript
-import{
-  View,
-  StatusBar
-}from 'react-native';
+
 ```
+**2. js中(),{}的区别
+
+{ } 大括号， 表示 定义一个对象 ，大部分情况下要有成对的属性和值，或是函数 。
