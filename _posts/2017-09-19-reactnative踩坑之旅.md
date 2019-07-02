@@ -55,3 +55,26 @@ source .bash_profile
 ```
  *** Android NDK: Aborting    .  Stop.
 ```
+
+在打安卓包过程中报错：
+
+```
+Failed to capture snapshot of input files for task ':app:bundleReleaseJsAndAssets' property '$1' ...
+
+```
+解决办法删掉根目录的.bin文件
+
+继续打包又出问题：
+
+```
+Failed to capture snapshot of input files for task ':app:bundleReleaseProductionJsAndAssets' property '$1' during up-to-date check.
+> Could not list contents of '/Users/shizitegong/Desktop/***/node_modules/react-native/scripts/third-party/glog-0.3.4/test-driver'. Couldn't follow symbolic link.
+
+```
+解决办法：cd到glog-0.3.4执行如下命令
+
+```
+unlink node_modules/react-native/third-party/glog-0.3.4/test-driver
+
+```
+继续打包，没问题。
