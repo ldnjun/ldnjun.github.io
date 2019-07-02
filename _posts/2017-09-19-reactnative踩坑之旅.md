@@ -24,8 +24,11 @@ If you are using NDK, verify the ndk.dir is set to a valid NDK directory
 ```
 
 mac没有安装ndk，安装步骤如下：
+
 1.[下载ndk](https://developer.android.google.cn/ndk/downloads/index.html) 
+
 2.解压压缩包 
+
 3.配置环境 
 ```
 vim .bash_profile
@@ -36,11 +39,15 @@ vim .bash_profile
 export PATH=${PATH}:/Users/julong/Downloads/adt-bundle-mac-x86_64-20140624/android-ndk-r16b
 
 ```
+
 4.重启加载文件
+
 ```
 source .bash_profile
 ```
+
 5.测试是否成功
+
 ```
 输入：ndk-build 
 ```
