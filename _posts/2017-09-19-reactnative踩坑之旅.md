@@ -20,6 +20,11 @@ tags:                               #标签
 **3.mac打包安卓包遇到的问题
 
 ```
+Gradle Permission denied
+
+```
+解决方法输入命令：chmod + x gradlew
+```
 If you are using NDK, verify the ndk.dir is set to a valid NDK directory
 ```
 
